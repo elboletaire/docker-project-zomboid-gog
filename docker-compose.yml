@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  project-zomboid:
+    build: ./
+    ports:
+    - 16261:16261/udp
+    volumes:
+    - ./data/game:/zomboid/game
+    - ./data/config:/zomboid/config
+    environment:
+      servername: elboletaire
+      adminpassword: hola
+      debug: 'true'
