@@ -1,6 +1,10 @@
 Project Zomboid docker image (for gog.com version)
 ==================================================
 
+[![Docker Build Status][build svg]][docker hub builds]
+[![Docker Automated build][docker automated svg]][docker hub builds]
+[![license][license svg]][license]
+
 Project Zomboid GOG server Docker image.
 
 Requirements
@@ -113,6 +117,13 @@ services:
       min_memory: '1024'
       debug: 'true'
 ~~~
+
+[build svg]: https://img.shields.io/docker/build/elboletaire/project-zomboid-gog.svg?style=flat-square
+[docker automated svg]: https://img.shields.io/docker/automated/elboletaire/project-zomboid-gog.svg?style=flat-square
+[license svg]: https://img.shields.io/github/license/elboletaire/docker-project-zomboid-gog.svg?style=flat-square
+
+[docker hub builds]: https://hub.docker.com/r/elboletaire/project-zomboid-gog/builds/
+[license]: ./LICENSE
 
 [startup parameters]: https://pzwiki.net/wiki/Startup_Parameters
 [pzwiki]: https://pzwiki.net
