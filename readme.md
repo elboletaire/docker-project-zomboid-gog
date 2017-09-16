@@ -1,7 +1,7 @@
 Project Zomboid docker image (for gog.com version)
 ==================================================
 
-Project Zomboid GOG Server Docker image.
+Project Zomboid GOG server Docker image.
 
 Requirements
 ------------
