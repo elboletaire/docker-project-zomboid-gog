@@ -11,8 +11,8 @@ Requirements
 ------------
 
 You first need to download the game from gog, in sh format (for linux). Unzip
-the file with your preferred zip extractor. On max/linux using the command line
-would be something like:
+the file with your preferred zip extractor. On mac/linux, using the command line,
+would be:
 
 ~~~bash
 unzip gog_project_zomboid*.sh -d project-zomboid
@@ -92,7 +92,7 @@ All of them are specified like its said in the guide, except for the following:
 | `min_memory` | `Xms`        |
 | `home`       | `Duser.home` |
 
-Complex example using almost every var:
+A bit more complex example using almost every var:
 
 ~~~yaml
 version: '3'
@@ -117,6 +117,12 @@ services:
       min_memory: '1024'
       debug: 'true'
 ~~~
+
+License
+-------
+
+All the code contained in this project is licensed under a
+[GNU GPL 3.0 license][license].
 
 [build svg]: https://img.shields.io/docker/build/elboletaire/project-zomboid-gog.svg?style=flat-square
 [docker automated svg]: https://img.shields.io/docker/automated/elboletaire/project-zomboid-gog.svg?style=flat-square
